@@ -10,12 +10,7 @@
     - `use codigoIoT;`
 5. Crear una nueva tabla que contenga los campos deseados
     - ID, fecha, nombre, temperatura, humedad
-    - `create table clima (`
-        `id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,`
-        `fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,`
-        `nombre CHAR(248) NOT NULL,`
-        `temperatura FLOAT(4,2) NOT NULL,`
-        `humedad INT(3) NOT NULL);`
+    - `create table clima (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP, nombre CHAR(248) NOT NULL, temperatura FLOAT(4,2) NOT NULL, humedad INT(3) NOT NULL);`
 
 ## Notas 
 - Se pueden consultar las bases de datos con el comando `show databases;`
